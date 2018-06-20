@@ -1,0 +1,26 @@
+1. Napisz program, który wypełni tablicę Stringów imionami podanymi z klawiatury (liczbę imion też pobierz z klawiatury).
+Następnie wypisz:
+- najdłuższe imię
+- najkrótsze imię
+- powtarzające się imiona wraz z ilością wystąpień
+
+np.:
+6
+Marek
+Andrzej
+Stefan
+Stefan
+Anna
+Marek
+Najdłuższe imię: Andrzej
+Najkrótsze imię: Anna
+Powtarzające się imiona: Stefan(2), Marek(2)
+
+2. Stwórz metodę, która przyjmuje parametr String (imię) i zwraca wartość logiczną true/false.
+Metoda sprawdza, czy w danym parametrze (imieniu) powtarza się jakaś litera (ignoruj wielkość znaków).
+Jeśli tak, to zwraca true, jeśli nie to false.
+Wypisz wynik w postaci "imię - wynikMetody".
+
+np.:
+Adam - true
+Jan - false
