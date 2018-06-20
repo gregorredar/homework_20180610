@@ -65,14 +65,14 @@ public class Main {
         for (int i = 0; i < table.length; i++) {
             int counter = 0;
             String repeating = null;
-            if (table[i].hashCode() == table[i++].hashCode()) {
+            if (table[i].hashCode() == table[i].hashCode()) {
                 counter++;
                 repeating = table[i];
             }
-
+            System.out.println(repeating + "(" + counter + ")");
         }
 
-        System.out.println(table[i] + "(" + counter + ")");
+
     }
 
 
